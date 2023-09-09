@@ -1,0 +1,86 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 16px;
+    min-height: 100vh;
+    line-height: 1.7;
+    scroll-behavior: smooth;
+    --animate-duration: 1.3s;
+    // display: none;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    box-shadow: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-inline{
+    display: inline;
+}
+
+.text-capitalize{
+    text-transform: capitalize;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bg-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bg-imageTop{
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.text-white{
+    color: white;
+}

@@ -1,0 +1,208 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "FrontEnd",
+      "coursePhoto": "course-1.jpg",
+      "trainer": "Mahmoud El-Gezawy",
+      "trainerPhoto": "trainer-1.jpg",
+      "price": "$250",
+      "lovers": 0,
+      "likes": 50,
+      "avaliableSeats": 21,
+      "schedule": "5.00PM - 7.00PM",
+      "enrolled": 9,
+      "description": "this is a FrontEnd course"
+    },
+    {
+      "id": 2,
+      "name": "Backend",
+      "coursePhoto": "course-2.jpg",
+      "trainer": "Abdallah samy",
+      "trainerPhoto": "trainer-2.jpg",
+      "price": "$399",
+      "lovers": 13,
+      "likes": 120,
+      "avaliableSeats": 0,
+      "schedule": "9.00AM - 1.00PM",
+      "enrolled": 30,
+      "description": "this is a BackEnd course"
+    },
+    {
+      "id": 3,
+      "name": "FullStack",
+      "coursePhoto": "course-3.jpg",
+      "trainer": "Amr Essam",
+      "trainerPhoto": "trainer-3.jpg",
+      "price": "$399",
+      "lovers": 13,
+      "likes": 115,
+      "avaliableSeats": 14,
+      "schedule": "10.00AM - 2.00PM",
+      "enrolled": 16,
+      "description": "this is a FullStack course"
+    }
+  ],
+  "trainers": [
+    {
+      "id": 1,
+      "name": "Abdallah Samy",
+      "trainerPhoto": "trainer-1.jpg",
+      "work": "Web Developer",
+      "description": "abdallah is perfect illistractor"
+    },
+    {
+      "id": 2,
+      "name": "Mahmoud El-Gezawy",
+      "trainerPhoto": "trainer-2.jpg",
+      "work": "Graphic Designer",
+      "description": "Mahmoud is perfect illistractor"
+    },
+    {
+      "id": 3,
+      "name": "Amr Essam",
+      "trainerPhoto": "trainer-3.jpg",
+      "work": "UI & UX",
+      "description": "amr is perfect illistractor"
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "first_name": "ahmed",
+      "last_name": "ali",
+      "subject": "hi ahmed",
+      "message": "welcome ahmed i hate you"
+    },
+    {
+      "id": 2,
+      "first_name": "abdallah",
+      "last_name": "samy",
+      "subject": "error in data",
+      "message": "please help me"
+    },
+    {
+      "first_name": "momen",
+      "last_name": "ahmed",
+      "subject": "give",
+      "message": "give me free courses",
+      "id": 3
+    },
+    {
+      "first_name": "boda",
+      "last_name": "waleed",
+      "subject": "don't",
+      "message": "just don't",
+      "id": 4
+    },
+    {
+      "first_name": "osama",
+      "last_name": "ali",
+      "subject": "mohamed",
+      "message": "hello osama ali mohamed",
+      "id": 5
+    },
+    {
+      "first_name": "hamda",
+      "last_name": "ali",
+      "subject": "help",
+      "message": "dont join course",
+      "id": 6
+    },
+    {
+      "first_name": "abdallah",
+      "last_name": "moahemd",
+      "subject": "hamada",
+      "message": "hi hamada",
+      "id": 7
+    },
+    {
+      "first_name": "mohamed",
+      "last_name": "ahmed",
+      "subject": "I'm user",
+      "message": "hello user come here",
+      "id": 8
+    },
+    {
+      "first_name": "hi",
+      "last_name": "hi",
+      "subject": "hi",
+      "message": "hi",
+      "id": 9
+    },
+    {
+      "first_name": "bad",
+      "last_name": "bad",
+      "subject": "bad",
+      "message": "bad",
+      "id": 10
+    },
+    {
+      "first_name": "happy",
+      "last_name": "happy",
+      "subject": "happy",
+      "message": "happy",
+      "id": 11
+    },
+    {
+      "first_name": "belal hanafy",
+      "last_name": "efgdfgdfg",
+      "subject": "dfdfgdfgdfgdfgddfd",
+      "message": "dhdhdh",
+      "id": 12
+    },
+    {
+      "first_name": "rr",
+      "last_name": "rr",
+      "subject": "rr",
+      "message": "rr",
+      "id": 13
+    },
+    {
+      "first_name": "mm",
+      "last_name": "mm",
+      "subject": "mm",
+      "message": "mm",
+      "id": 14
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "Intro to CS",
+      "time": "Sunday, September 26th at 7:00 pm",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptate a neque in quia fugiat temporibus autem, eos sed harum ducimus ad quaerat quibusdam asperiores deleniti nemo ea deserunt! Nihil.",
+      "photoEvent": "events-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Intro to Programming",
+      "time": "Sunday, November 15th at 7:00 pm",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptate a neque in quia fugiat temporibus autem, eos sed harum ducimus ad quaerat quibusdam asperiores deleniti nemo ea deserunt! Nihil.",
+      "photoEvent": "events-2.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Super Admin",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "type": "admin"
+    },
+    {
+      "name": "elzero",
+      "email": "elzero@gmail.com",
+      "password": "123456",
+      "type": "user",
+      "id": 2
+    },
+    {
+      "name": "ahmed",
+      "email": "ahmed@gmail.com",
+      "password": "123456",
+      "type": "user",
+      "id": 3
+    }
+  ]
+}

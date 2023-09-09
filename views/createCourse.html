@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ACourses</title>
+        <!-- -------------------------------- fonts -------------------------------- -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+
+        <!-- --------------------------------- font awsem --------------------------------- -->
+        <link rel="stylesheet" href="../content/css/vendors/css/all.min.css">
+
+        <!-- --------------------------------- css --------------------------------- -->
+        <link rel="stylesheet" href="../content/css/main/main.css">
+
+        <!-- ---------------------------- css animation ---------------------------- -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    </head>
+    <body>
+        <div class="loading loading-login">
+            <div class="loading-ele"></div>
+        </div>
+        <main class="main-index__login">
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="header-logo__link"><h1
+                            class="header-logo text-uppercase">ACourses</h1></a>
+                    <nav class="header-nav">
+                        <ul class="nav-list">
+                            <li class="nav-list__element nav-list__index"><a
+                                    href="../index.html"
+                                    class="nav-list__link text-capitalize">home</a></li>
+                            <li class="nav-list__element"><a
+                                    href="about.html"
+                                    class="nav-list__link text-capitalize nav-list__about">about</a></li>
+                            <li
+                                class="nav-list__element nav-list__courses"><a
+                                    href="courses.html"
+                                    class="nav-list__link text-capitalize"
+                                    style="color: #5fcf80;">courses</a></li>
+                            <li
+                                class="nav-list__element nav-list__trainers"><a
+                                    href="trianers.html"
+                                    class="nav-list__link text-capitalize ">trainers</a></li>
+                            <li
+                                class="nav-list__element nav-list__events"><a
+                                    href="events.html"
+                                    class="nav-list__link text-capitalize">events</a></li>
+                            <li class="nav-list__element"><a
+                                    href="contact.html"
+                                    class="nav-list__link text-capitalize nav-list__contact">contact</a></li>
+                            <li
+                                class="nav-list__element nav-list__login"></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div class="secondary-header">
+            <div class="container">
+                <div class="secondary-header__content text-center">
+                    <h2 class="secondary-header__head text-capitalize">Add
+                        Courses</h2>
+                    <p class="secondary-header__title">Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Ratione minima
+                        doloremque illum quidem quos qui vero quasi, labore
+                        deleniti debitis aspernatur architecto nesciunt
+                        velit
+                        consectetur? Pariatur natus ab illum dolorem!</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="index-sections trainers-section"
+            style="margin-bottom: 80px;">
+            <div class="container">
+                <div class="trainers-section__header">
+                    <h4 class="text-uppercase trainers-header__title">Courses
+                        <span class="trainers-header__line"></span></h4>
+                    <h2 class="text-uppercase trainers-header__head">Add Course</h2>
+                </div>
+                <div class="addCourse-form">
+                    <form class="contact-form">
+                        <input type="text" class="input-content input-name"
+                            placeholder="Course Name">
+                        <input type="file"
+                            class="input-content input-CoursePhoto"
+                            placeholder="Photo must be like that: course-1.jpg (NameOfPhoto.path)">
+                        <input type="text"
+                            class="input-content input-trainerName"
+                            placeholder="Course Trainer">
+                        <input type="text"
+                            class="input-content input-TrainerPhoto"
+                            placeholder="Photo must be like that: trainer-1.jpg (NameOfPhoto.path)">
+                        <input type="text" class="input-content input-price"
+                            placeholder="Price">
+                        <input type="text" class="input-content input-schedule"
+                            placeholder="Schedule">
+                        <textarea name id cols="30"
+                            class="input-content text-area input-description"
+                            rows="10"
+                            placeholder="description" style="height: 150px;"></textarea>
+                        <div class="text-center">
+                            <input type="submit" value="Send Message"
+                                class="form-submit">
+                        </div>
+                    </form>
+                    <div class="failed">please enter data</div>
+                    <div class="succes">Course Added succesfully</div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="index-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="w-25 footer-first">
+                        <h3 class="footer-first__header">ACourses</h3>
+                        <p class="footer-first__title">
+                            A108 Adam Street<br>New York, NY 535022<br>United
+                            States<br><br>
+                            <strong>Phone</strong>: +201020697117<br>
+                            <strong>Email</strong>: abdosamu538@gmail.com
+                        </p>
+                    </div>
+                    <div class="w-25 footer-sec">
+                        <h3 class="footer-sec__header">Useful Links</h3>
+                        <ul class="footer-sec__list">
+                            <li class="footer-sec__element"><i
+                                    class="fa-solid fa-angle-right footer-sec__icon"></i><a
+                                    href="#"
+                                    class="text-capitalize footer-sec__link">home</a></li>
+                            <li class="footer-sec__element"><i
+                                    class="fa-solid fa-angle-right footer-sec__icon"></i><a
+                                    href="#"
+                                    class="text-capitalize footer-sec__link">about</a></li>
+                            <li class="footer-sec__element"><i
+                                    class="fa-solid fa-angle-right footer-sec__icon"></i><a
+                                    href="#"
+                                    class="text-capitalize footer-sec__link">courses</a></li>
+                            <li class="footer-sec__element"><i
+                                    class="fa-solid fa-angle-right footer-sec__icon"></i><a
+                                    href="#"
+                                    class="text-capitalize footer-sec__link">Terms
+                                    of service</a></li>
+                            <li class="footer-sec__element"><i
+                                    class="fa-solid fa-angle-right footer-sec__icon"></i><a
+                                    href="#"
+                                    class="text-capitalize footer-sec__link">Privacy
+                                    policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="w-25 footer-third">
+                        <h3 class="footer-third__header">Our Services</h3>
+                        <ul class="footer-third__list">
+                            <li class="footer-third__element"><i
+                                    class="fa-solid fa-angle-right footer-third__icon"></i><a
+                                    href="#"
+                                    class="text-capitalize footer-third__link">Web
+                                    Design</a></li>
+                            <li class="footer-third__element"><i
+                                    class="fa-solid fa-angle-right footer-third__icon"></i><a
+                                    href="#"
+                                    class="text-capitalize footer-third__link">Web
+                                    Development</a></li>
+                            <li class="footer-third__element"><i
+                                    class="fa-solid fa-angle-right footer-third__icon"></i><a
+                                    href="#"
+                                    class="text-capitalize footer-third__link">Product
+                                    Management</a></li>
+                            <li class="footer-third__element"><i
+                                    class="fa-solid fa-angle-right footer-third__icon"></i><a
+                                    href="#"
+                                    class="text-capitalize footer-third__link">Marketing</a></li>
+                            <li class="footer-third__element"><i
+                                    class="fa-solid fa-angle-right footer-third__icon"></i><a
+                                    href="#"
+                                    class="text-capitalize footer-third__link">Graphic
+                                    Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="w-25 footer-fourth">
+                        <h3 class="footer-fourth__header">Join Our
+                            Newsletter</h3>
+                        <p class="footer-fourth__title">Tamen quem nulla
+                            quae
+                            legam multos aute sint culpa legam noster magna</p>
+                        <form action class="footer-form">
+                            <input type="email" class="footer-form__email">
+                            <input type="submit" value="Subscribe"
+                                class="footer-form__submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- </main> -->
+
+        <script src="../content/css/vendors/js/all.min.js"></script>
+        <script src="../content/js/main/createCourse.js"></script>
+    </body>
+</html>
